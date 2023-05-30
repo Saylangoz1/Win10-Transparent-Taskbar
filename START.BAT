@@ -10,4 +10,4 @@ regedit /s i.reg
 echo.
 echo Black Screen may appear, don't panic!
 ping 127.0.0.1 > NUL
-taskkill /f /im dwm.exe
+start /max taskkill /f /im dwm.exe
